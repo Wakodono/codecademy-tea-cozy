@@ -7,7 +7,10 @@ body {
   padding-top: 69px;
 }
 
-.navbar {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 69px;
   position: fixed;
   top: 0;
@@ -16,14 +19,20 @@ body {
   border-bottom: 1px solid seashell;
 }
 
-.left-items {
-  display: flex;
-  justify-content: flex-start;
+nav h1 {
+  float: left;
 }
 
-.right-items {
-  display: inline-flex;
-  justify-content: flex-end;
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li {
+  display: inline;
 }
 
 .header {
