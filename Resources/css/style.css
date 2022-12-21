@@ -37,6 +37,56 @@ nav a {
   padding: 20px 20px;
 }
 
+nav a li {
+  text-decoration: underline;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+}
+
+.mission-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+
+.text-over {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.tea-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10xp;
+}
+
+.location-container {
+  height: 500px;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+}
+
 .header {
   height: 700px;
   width: 1200px;
